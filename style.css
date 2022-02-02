@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* responsive */
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+/* end of responsive */
+
+body {
+  background: #E7E7E7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #113A5D;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto
+}
+
+.card {
+  margin: 15px auto;
+  background: #F7F9FC;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+h1 {
+  color: #F24C00;
+  font-size: 36px;
+}
+
+h2 {
+  color: #FC7A1E;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icon {
+  color: #485696;
+  font-size: 25px;
+}
+
+.icon:hover {
+  color: #989FBF;
+}
+
+.btn {
+  background: #485696;
+  border: none;
+  color: #F7F9FC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #989FBF;
+  color: #F7F9FC;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.media {
+  text-align: center;
+}
